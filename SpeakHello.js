@@ -23,12 +23,12 @@
 
 
 (function(window){
-var hello.Speaker = {};
+var helloSpeaker = {};
 var speakWord = "Hello";
 
 helloSpeaker.speak=function(names) {
   console.log(speakWord + " " + names);
 }
 
-window.hello.Speaker = hello.Speaker;
+window.helloSpeaker = helloSpeaker;
 })(window);
